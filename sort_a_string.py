@@ -1,5 +1,6 @@
 """
 # 100daysCodingChallenge
+Level: Easy
 Goal is to write a python function to sort the words in string
 
 input: String of words separated by spaces

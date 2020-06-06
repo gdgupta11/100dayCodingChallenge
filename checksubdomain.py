@@ -1,5 +1,6 @@
 # Script to check subdomain of the websites using Certificate transperancy logs
 # 100daysCodingChallenge
+# Level: Easy
 
 import requests
 import sys
@@ -11,7 +12,7 @@ if args_length < 1:
 
 def get_subdomains(url):
     """
-        Takes a URL and get lists of subdomains using certificate transperancy logs from crt.sh website. 
+        Takes a URL and get lists of subdomains using certificate transperancy logs from crt.sh website.
 
          Response schema from website:
             {

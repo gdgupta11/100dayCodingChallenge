@@ -1,10 +1,11 @@
 """
 # 100daysCodingChallenge
+Level: Easy
 Goal: Write a python challenge to index all list items in a lists
 
 Input: List of search, value to search for
 
-Output: List of indices represented by list of getPrimeNumbers
+Output: List of indices represented by list of lists for a given value
 
 Note: Keep in mind that python lists contains list of list, should be able to traverse multidimentional list
 """
