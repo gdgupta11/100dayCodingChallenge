@@ -16,6 +16,7 @@ import sys
 if __name__ == '__main__':
     # the input should be non negative integer. Converting that into abs value
     n = abs(int(input()))
+    # this takes the list which has integer inputs and convert them all into int
     integer_list = list(map(int, input().split()))
     mylist = list(integer_list)
     # exiting if the n spaced integers isn't equal to integer n
