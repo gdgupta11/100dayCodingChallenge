@@ -28,6 +28,7 @@ def count_substring(string, sub_string):
         sys.exit(1)
     count = 0
     t = sub_string[0]
+    # using enumerate I am checking index position of the all matching characters in the given string and creating a list of it
     occurences = [i for i, letter in enumerate(string) if letter == t]
     subLen = len(sub_string)
     for o in occurences:
